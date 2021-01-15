@@ -1,2 +1,27 @@
-hsecrets.py
 *.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+
+
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+
+# Environments
+venv
+.env
+env/
+venv/
+ENV/
+
+# vscode
+.vscode
+.DS_Store
+
+
+#migrations
+**/migrations/*
+!**/migrations/__init__.py
